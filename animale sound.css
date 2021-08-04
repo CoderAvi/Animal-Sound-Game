@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container img{
+    height: 60px;
+    width: 60px;
+    border-radius:50%;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+    background: #ececec;
+}
+
+.container{
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ececec;
+    border-radius: 6px;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+                10px 10px 15px rgba(70,70,70,0.12);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+    10px 10px 15px rgba(70,70,70,0.12);
+    cursor: pointer;
+}
+
+.container div:hover{
+    transform: scale(1.08);
+}
+
+h1{
+    position: absolute;
+    top: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #5D6D75;
+    text-transform: uppercase;
+}
+
+.animaleName{
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #616A6B;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+    10px 10px 15px rgba(70,70,70,0.12);
+}
